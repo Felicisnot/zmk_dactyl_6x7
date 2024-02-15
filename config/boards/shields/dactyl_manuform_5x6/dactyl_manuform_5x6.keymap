@@ -14,10 +14,10 @@
 
         default_layer {
             bindings = <
-                &kp PGUP  &kp N1 &kp N2    &kp N3    &kp N4    &kp N5            &kp N6   &kp N7   &kp N8    &kp N9  &kp N0       &mt ADJ ESC
-                &kp PGDN  &kp Q  &kp W     &kp E     &kp R     &kp T             &kp Y    &kp U    &kp I     &kp O   &kp P        &kp NUBS
-                &kp HOME  &kp A  &kp S     &kp D     &kp F     &kp G             &kp H    &kp J    &kp K     &kp L   &mt RSE SEMI &kp APOS
-                &kp END   &kp Z  &kp X     &kp C     &kp V     &kp B             &kp N    &kp M    &kp COMMA &kp DOT &kp FSLH     &kp NUHS
+                &kp PGUP  &kp N1 &kp N2    &kp N3    &kp N4    &kp N5            &kp N6   &kp N7   &kp N8    &kp N9  &kp N0   &kp ESC
+                &kp PGDN  &kp Q  &kp W     &kp E     &kp R     &kp T             &kp Y    &kp U    &kp I     &kp O   &kp P    &kp NUBS
+                &kp HOME  &kp A  &kp S     &kp D     &kp F     &kp G             &kp H    &kp J    &kp K     &kp L   &kp SEMI &kp APOS
+                &kp END   &kp Z  &kp X     &kp C     &kp V     &kp B             &kp N    &kp M    &kp COMMA &kp DOT &kp FSLH &kp NUHS
                                  &kp MINUS &kp EQUAL                                      &kp LBKT &kp RBKT
                                                      &kp SPACE &mo LWR           &kp LWR  &kp RET
                                                      &kp LALT  &kp LSHIFT        &kp BSPC &kp TAB
@@ -53,10 +53,10 @@
 
         adjust_layer {
             bindings = <
-                &bt BT_CLR &bt BT_SEL 0 &bt BT SEL 1 &bt BT_SEL 2 &bt BT_SEL 3    &none             &none &none &none &none &none &none
-                &none        &none        &none        &none        &none         &none             &none &none &none &none &none &none
-                &out OUT_BLE &none        &none        &none        &none         &none             &none &none &none &none &none &none
-                &out OUT_USB &none        &none        &none        &none         &none             &none &none &none &none &none &none
+                &bt BT_CLR   &bt BT_SEL 0 &bt BT SEL 1 &bt BT_SEL 2 &bt BT_SEL 3  &none             &none &none &none &none &none &none
+                &none        &bt BT_SEL 1 &out OUT_USB &none        &none         &none             &none &none &none &none &none &none
+                &out OUT_BLE &bt BT_SEL 2 &none        &none        &none         &none             &none &none &none &none &none &none
+                &out OUT_USB &bt BT_SEL 3 &bt BT_CLR   &none        &none         &none             &none &none &none &none &none &none
                                           &none        &none                                                    &none &none
                                                                     &none         &none             &none &none
                                                                     &none         &none             &none &none
