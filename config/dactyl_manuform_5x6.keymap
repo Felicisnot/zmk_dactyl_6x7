@@ -42,7 +42,7 @@
             bindings = <
                 &bootloader &trans &trans &trans &trans &trans                &trans &trans &trans       &trans       &trans &trans
                 &trans      &trans &trans &trans &trans &trans                &trans &trans &trans       &trans       &trans &trans
-                &trans      &trans &trans &trans &trans &trans                &trans &trans &trans       &trans       &trans &kp K_PAUSE
+                &trans      &trans &trans &trans &trans &trans                &trans &trans &trans       &trans       &trans &kp K_PP
                 &trans      &trans &trans &trans &trans &trans                &trans &trans &kp K_PREV   &kp K_NEXT   &trans &trans
                                    &trans &trans                                            &kp K_VOL_UP &kp K_VOL_DN
                                                  &trans &trans                &trans &trans
