@@ -21,7 +21,7 @@
                                  &kp MINUS &kp EQUAL                                      &kp LBKT &kp RBKT
                                                      &kp SPACE &mo LWR           &kp LWR  &kp RET
                                                      &kp LALT  &kp LSHIFT        &kp BSPC &kp TAB
-                                                     &kp DEL   &kp LCTRL         &kp INS  &kp LALT
+                                                     &kp DEL   &kp LCTRL         &kp INS  &kp LWIN
             >;
         };
 
