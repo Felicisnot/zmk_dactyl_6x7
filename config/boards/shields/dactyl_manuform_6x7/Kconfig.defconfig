@@ -1,0 +1,23 @@
+if SHIELD_DACTYL_MANUFORM_6x7_LEFT
+
+    config ZMK_KEYBOARD_NAME
+        default "Manuform 6x7"
+
+    config ZMK_SPLIT_BLE_ROLE_CENTRAL
+        default y
+
+endif
+
+if SHIELD_DACTYL_MANUFORM_6x7_RIGHT
+
+    config ZMK_KEYBOARD_NAME
+        default "Manuform 6x7 (R)"
+
+endif
+
+if SHIELD_DACTYL_MANUFORM_6x7_LEFT || SHIELD_DACTYL_MANUFORM_6x7_RIGHT
+
+    config ZMK_SPLIT
+        default y
+
+endif
