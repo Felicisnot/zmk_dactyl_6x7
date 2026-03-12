@@ -1,12 +1,17 @@
 file_format: "1"
-id: dactyl_manuform_6x7
+id: manuform_6x7
 name: dactyl_manuform_6x7
 type: shield
+
 url: https://github.com/Felicisnot/zmk_dactyl_6x7/
-requires: [pro_micro]
-exposes: [i2c_oled]
+
+requires: pro_micro
+
 features:
   - keys
+  - studio
+
 siblings:
-  - dactyl_manuform_6x7_left
-  - dactyl_manuform_6x7__right
+  - manuform_6x7_left
+  - manuform_6x7__right
+  
