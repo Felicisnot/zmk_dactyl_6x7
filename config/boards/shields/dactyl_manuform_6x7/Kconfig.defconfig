@@ -6,6 +6,9 @@ if SHIELD_DACTYL_MANUFORM_6x7_LEFT
     config ZMK_SPLIT_ROLE_CENTRAL
         default y
 
+    config ZMK_SPLIT_BLE
+        default y
+
 endif
 
 if SHIELD_DACTYL_MANUFORM_6x7_RIGHT
