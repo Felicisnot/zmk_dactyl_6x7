@@ -1,5 +1,7 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 
+#include "manuform_6x7-layouts.dtsi"
+
 / {
     chosen {
         zmk,kscan = &kscan0;
@@ -35,6 +37,7 @@ RC(4,0) RC(4,1) RC(4,2) RC(4,3) RC(4,4) RC(4,5) RC(4,6)         RC(4,12) RC(4,12
     kscan0: kscan {
         compatible = "zmk,kscan-gpio-matrix";
         label = "KSCAN";
+        wakeup-source;
 
         diode-direction = "col2row";
         row-gpios
