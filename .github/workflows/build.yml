@@ -91,5 +91,5 @@ jobs:
       - name: Archive (${{ steps.variables.outputs.display-name }})
         uses: actions/upload-artifact@v6
         with:
-          name: firmware
           path: build/artifacts
+          name: ${{ steps.variables.outputs.display-name }}
